@@ -1,0 +1,69 @@
+.user-profile .card-box
+{
+	padding:20px;
+	border-radius:10px;
+	background-color:#fafafa
+}
+
+.user-profile .card-box .photo-profile
+{
+	width:200px;
+	height:200px;
+	object-fit:cover;
+	object-position:center
+}
+
+.user-profile .card-box .fsw-h4
+{
+	font-size:1.5rem;
+	font-weight:500
+}
+
+.user-profile .card-box .fsw-h2
+{
+	font-size:2rem;
+	font-weight:500
+}
+
+.role-badge
+{
+	display:inline-block;
+	padding:1px 8px 2px 8px;
+	font-weight:500;
+	font-size:13px;
+	text-transform:uppercase;
+	border-radius:5px;
+	border:1px solid #d0d0d0;
+	background:#dcdcdc
+}
+
+.role-badge.role-banned
+{
+	border: 1px solid #505050!important;
+	background: #000000!important;
+	color: #ff4747!important;
+}
+
+.role-badge.role-member
+{
+	border:1px solid #d0d0d0!important;
+	background:#dcdcdc!important
+}
+
+.role-badge.role-staff
+{
+	border:1px solid #64d0ff!important;
+	background:#8fd0ff!important
+}
+
+.role-badge.role-moderator
+{
+    border: 1px solid #64ff70!important;
+    background: #91ff8f!important;
+}
+
+.role-badge.role-admin
+{
+	border:1px solid #ff6464!important;
+	background:#ff8f8f!important
+}

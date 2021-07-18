@@ -1,0 +1,33 @@
+.card-img-top{
+	width: 100%;
+    height: 15vw;
+	object-fit: cover;
+	object-position: center;
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.fw-semibold {
+	font-weight: 600;
+}
+
+.laporan_lengkap img {
+	max-width: 100%;
+	max-height: 400px;
+}
+
+.laporan_lengkap .carousel button {
+	background: rgb(100 100 100 / 25%);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6c757d;
+	border-radius: 8px;
+}
